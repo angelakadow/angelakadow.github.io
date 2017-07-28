@@ -121,10 +121,6 @@ footer {
   border: 1px solid #ddd;
 }
 
-.teachingvideo {
-  width: 100%;
-  height: auto;
-}
 
 h3,
 .sidebar h2 {
@@ -148,6 +144,11 @@ h3,
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }*/
 
 /* main */
+
+.teachingvideo {
+  width: 100%;
+  height: auto;
+}
 
 #main-container {
   padding-top: 130px;
@@ -249,7 +250,7 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 768px){
 
   #masthead {
     position: static;
