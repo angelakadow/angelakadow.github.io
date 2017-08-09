@@ -263,7 +263,7 @@ width: 100%;
 height: 100%;
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 800px){
 
   #masthead {
     position: static;
