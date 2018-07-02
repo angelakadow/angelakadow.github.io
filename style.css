@@ -21,6 +21,10 @@ body, h1 {
 	font-family: Welcome;
 }
 
+p {
+	text-align: justify;
+}
+
 h1 {
 	font-family: Welcome;
 	font-size: 36px;
