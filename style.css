@@ -126,6 +126,12 @@ h1 {
 	text-align: center;
 }
 
+.intro-lesson {
+    width: 100%;
+    height: 850px;
+	text-align: center;
+}
+
 .space {
 	margin-bottom: 25px;
 }
