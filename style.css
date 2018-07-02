@@ -153,9 +153,15 @@ h1 {
 	margin-bottom: 15px;
 }
 
-#why {
+#why, #how {
 	font-size: 36px;
 	font-family: Welcome;
+}
+
+#apj {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
 }
 
 .container p {
@@ -409,7 +415,7 @@ h2 {
 	.banner img {
 		margin-top: 2%;
 	}
-	#why {
+	#why, #how{
 		font-size: 30px;
 	}
 	#lesson {
@@ -435,7 +441,7 @@ h2 {
 		font-size: 12px;
 		margin: 0;
 	}
-	#why, #email {
+	#why,, #how, #email {
 		font-size: 24px;
 	}
 	h2 {
@@ -447,7 +453,7 @@ h2 {
 	h1 {
 		font-size: 16px;
 	}
-	#why, #email {
+	#why, #how, #email {
 		font-size: 16px;
 	}
 }
