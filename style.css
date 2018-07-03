@@ -101,7 +101,7 @@ h1 {
 }
 
 .directory #philosophy {
-	margin-left: 22%;
+	margin-left: 25%;
 }
 
 .directory #about2, .directory #philosophy2 {
@@ -163,9 +163,15 @@ h1 {
 }
 
 #apj {
-	font-size: 20px;
+	font-family: Angela;
+	font-size: 16px;
 	font-weight: bold;
 	color: black;
+}
+
+.start {
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .container p {
@@ -270,17 +276,65 @@ h4 {
 	font-weight: bold;
 }
 
+
+
+
+
+
+.dropdwn {
+    position: absolute;
+    font-family: Welcome;
+    display: inline-block;
+}
+
+#abt {
+    left: 26%;
+    top: 276px;
+}
+
+#abut {
+    left: 10%;
+    top: 276px;
+}
+
+.dropdwn-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdwn-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdwn-content a:hover {background-color: #ddd;}
+
+.dropdwn:hover .dropdwn-content {display: block;}
+
+.dropdwn:hover .dropbt {background-color: #3e8e41;}
+
+
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
 .dropbtn {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
 }
 
 .dropdown-content {
@@ -375,6 +429,9 @@ h2 {
 		margin-top: 10px;
 	}
 	.directory {
+		visibility: hidden;
+	}
+	.dropdwn {
 		visibility: hidden;
 	}
 	#inspire {
