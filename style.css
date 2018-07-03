@@ -210,6 +210,10 @@ h1 {
     font-family: Welcome;
 }
 
+#one {
+	background-color: #87CEFA;
+}
+
 #two {
 	background-color: #b3ffb3;
 }
@@ -254,6 +258,14 @@ h1 {
 
 #six {
 	background-color: #ffb3ff;
+}
+
+#seven {
+	background-color: #FAFAD2;
+}
+
+#eight {
+	background-color: #D8BFD8;
 }
 
 #left {
