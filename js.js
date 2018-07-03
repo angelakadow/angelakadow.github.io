@@ -43,6 +43,9 @@ $(document).ready(function() {
     $("#three").hide();
     $("#four").hide();
     $("#five").hide();
+    $("#six").hide();
+    $("#seven").hide();
+    $("#eight").hide();
     });
 
 $(document).ready(function() {
@@ -64,7 +67,7 @@ $(document).ready(function() {
 
     $("#left").on('click', function(){
         if (visible === 1) {
-            visible = 5;
+            visible = 8;
             console.log(visible);
         }
         else {
@@ -74,7 +77,7 @@ $(document).ready(function() {
     });
 
     $("#right").on('click', function() {
-        if (visible === 5) {
+        if (visible === 8) {
             visible = 1;
             console.log(visible);
         }
@@ -91,6 +94,9 @@ $(document).ready(function() {
             $("#three").hide();
             $("#four").hide();
             $("#five").hide();
+            $("#six").hide();
+            $("#seven").hide();
+            $("#eight").hide();
         }
         else if (visible === 2) {
             $("#one").hide();
@@ -98,6 +104,9 @@ $(document).ready(function() {
             $("#three").hide();
             $("#four").hide();
             $("#five").hide();
+            $("#six").hide();
+            $("#seven").hide();
+            $("#eight").hide();
         }
         else if (visible === 3) {
             $("#one").hide();
@@ -105,6 +114,9 @@ $(document).ready(function() {
             $("#three").show();
             $("#four").hide();
             $("#five").hide();
+            $("#six").hide();
+            $("#seven").hide();
+            $("#eight").hide();
         } 
         else if (visible === 4) {
             $("#one").hide();
@@ -112,13 +124,49 @@ $(document).ready(function() {
             $("#three").hide();
             $("#four").show();
             $("#five").hide();
+            $("#six").hide();
+            $("#seven").hide();
+            $("#eight").hide();
+        }
+        else if (visible === 5) {
+            $("#one").hide();
+            $("#two").hide();
+            $("#three").hide();
+            $("#four").hide();
+            $("#five").show();
+            $("#six").hide();
+            $("#seven").hide();
+            $("#eight").hide();
+        }
+        else if (visible === 6) {
+            $("#one").hide();
+            $("#two").hide();
+            $("#three").hide();
+            $("#four").hide();
+            $("#five").hide();
+            $("#six").show();
+            $("#seven").hide();
+            $("#eight").hide();   
+        }
+        else if (visible === 7) {
+            $("#one").hide();
+            $("#two").hide();
+            $("#three").hide();
+            $("#four").hide();
+            $("#five").hide();
+            $("#six").hide();
+            $("#seven").show();
+            $("#eight").hide();   
         }
         else {
             $("#one").hide();
             $("#two").hide();
             $("#three").hide();
             $("#four").hide();
-            $("#five").show();
+            $("#five").hide();
+            $("#six").hide();
+            $("#seven").hide();
+            $("#eight").show();   
         }
     });
 });

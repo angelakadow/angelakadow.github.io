@@ -210,36 +210,32 @@ h1 {
     font-family: Welcome;
 }
 
-#one {
+#two {
 	background-color: #b3ffb3;
 }
 
-#two {
+#three {
 	background-color: #ff9980;
 }
 
-#three {
+#four {
 	background-color: #b3e0ff;
 }
 
-#four {
+#five {
 	background-color: #ffb3b3;
 	color: black;
 }
 
-/*#four ul > li {
-	list-style-image: url(assets/images/peppermint.png);
-}*/
-
-#four ul {
+#five ul {
     list-style: none;
 }
 
-#four li {
+#five li {
     position: relative;
 }
 
-#four li:before {
+#five li:before {
     /*
     The desired width gets defined in two places: The element width, and background size.
     The height only gets defined once, in background size.
@@ -256,7 +252,7 @@ h1 {
     background-size: 20px 20px;
 }
 
-#five {
+#six {
 	background-color: #ffb3ff;
 }
 
