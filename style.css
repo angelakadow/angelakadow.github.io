@@ -326,11 +326,11 @@ h4 {
     display: block;
 }
 
-.dropdwn-content a:hover {background-color: #ddd;}
+/*.dropdwn-content a:hover {background-color: #ddd;}
 
 .dropdwn:hover .dropdwn-content {display: block;}
 
-.dropdwn:hover .dropbt {background-color: #3e8e41;}
+.dropdwn:hover .dropbt {background-color: #3e8e41;}*/
 
 
 
@@ -365,12 +365,6 @@ h4 {
     text-decoration: none;
     display: block;
 }
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 .bullet {
 	visibility: hidden;
