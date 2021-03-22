@@ -1,98 +1,680 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Angela Kadow's Website</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-	<meta charset="utf-8">
-	<meta name="author" content="Angela Kadow">
-	<meta name="keywords" content="teacher,teaching,music,education">
-	<meta name="description" content="Angela Kadow's Home Page">
-	<meta name="profession" content="Music Teacher">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio | Angela Kadow</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.0.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-	<div class="fixed-note">
-		<img alt="Music Note" class="masterTooltip" src="assets/images/note.png">
-		<a class="test" id="contact" data-toggle="tooltip" data-placement="top" title="angelabk2588@gmail.com">
-		<span class="footer">Angela Kadow</span>
-		</a>
-	</div>
 
-	<div class="linkedin">
-		<a href="https://www.linkedin.com/in/angela-kadow-b6576590/" target="_blank"><img alt="LinkedIn" src="assets/images/Linkedin1.png"></a>
-	</div>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-	<div class="intro">
-		<div class="banner">
-			<img alt="music banner" src="assets/images/music.png">
-		</div>
-		<div class="welcome">
-			<img alt="Angela Kadow" class="profile" src="assets/images/Profile.jpg">
-			<h1>Angela Kadow - Music Teacher</h1>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-			<div id="abut" class="dropdwn">
-				<a id="aboutMenu" class="menu">About</a>
-				<div id="about" class="dropdwn-content">
-				    <a href="about.html">About me</a>
-				    <a href="assets/AngelaKadowResume.pdf">My Resume</a>
-				    <a href="assets/pdf/StPeterLOR.pdf">Letter of Recommendation 1</a>
-				    <a href="assets/pdf/CSU-LOR.pdf">Letter of Recommendation 2</a>
-				    <a href="assets/pdf/SamanthaSmithLOR.pdf">Letter of Recommendation 3</a>
-				</div>
-			</div>
+      <div class="profile">
+        <img src="assets/img/angela.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light center-name"><a href="index.html">Angela Kadow</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+          <a href="mailto:angelabk2588@gmail.com" class="google-plus"><i class="bx bi-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/angela-kadow-b6576590/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
 
-			<div class="dropdown">
-				<button id="menu" class="dropbtn">Menu</button>
-				<div id="myDropdown" class="dropdown-content">
-					<a href="about.html">About</a>
-				    <a href="assets/AngelaKadowResume.pdf">My Resume</a>
-				    <a href="assets/pdf/StPeterLOR.pdf">Letter of Recommendation 1</a>
-				    <a href="assets/pdf/CSU-LOR.pdf">Letter of Recommendation 2</a>
-				    <a href="assets/pdf/SamanthaSmithLOR.pdf">Letter of Recommendation 3</a>
-					<a href="philosophy.html">Philosophy</a>
-					<a href="highlights.html">Teaching Highlights</a>
-					<a href="lessons.html">Lesson/Unit Plans</a>
-				</div>
-			</div>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Testimonials</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
 
-			<div class="directory">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Angela Kadow</h1>
+      <p>I'm a <span class="typed" data-typed-items="Teacher, Musician, Team Player, Collaborator"></span></p>
+    </div>
+  </section><!-- End Hero -->
 
-				<a href="philosophy.html" class="menu" id="philosophy">Philosophy</a>
+  <main id="main">
 
-				<a href="highlights.html" class="menu" id="teaching">Teaching Highlights</a>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container">
 
-				<a href="lessons.html" class="menu" id="lessons">Lesson/Unit Plans</a>
-			</div>
+        <div class="section-title">
+          <h2>About</h2>
+          <p></p>
+        </div>
 
-			<p id="inspire">Through my teaching, I inspire...</p>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/angela.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Music Teacher</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>September 25, 1988</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Cleveland, OH</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Music</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>angelabk2588@gmail.com</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              <b>I fell in love</b> with making music while attending Lakewood City Schools in Lakewood, Ohio. Learning to play the flute in 5th Grade was difficult for me, and I received some extra help from my band teacher. This teacher’s dedication and exuberance made me feel valued, so I continued to play. While in high school, I decided I wanted to teach music. I had wanted to be a teacher since 2nd grade, and teaching music allowed me to combine my passions for music and teaching.
+            </p>
+            <p>
+              <b>I broadened my horizons</b> while majoring in Music Education at Cleveland State University. I continued to play my flute in band and take flute lessons. I began singing in choir and taking voice lessons as well. The combination of flute, voice and methods classes for woodwind, brass, percussion and string instruments has exposed me to teaching many classroom instruments.
+            </p>
+            <p>
+              <b>Each chapter of my journey</b> has enabled me to grow as an educator and collaborator. After graduating Cum Laude from Cleveland State, I spent a year as a substitute teacher through the North Coast Shared Services Alliance in Cuyahoga and Lorain counties. Each job provided an opportunity to fuse music and core education while challenging me to improve my classroom management skills. My first full-time music teaching job was at St. Peter School in Lorain, Ohio  where I taught K-8 General Music and 5-8 Band. During that time, I organized two concerts: a Christmas Concert featuring 1st-3rd grade choirs and an 8th grade bucket drumming ensemble, and a Spring Concert showcasing Kindergarten, 4th grade and Band. The next step of my teaching journey empowered me to broaden my horizons even further. I taught middle school general music and choir as well as high school guitar at Parma Community High School. My general music classes enabled students to play a variety of instruments while my guitar classes emphasized a holistic learning approach. I am currently in my second year of teaching music at Admiral King Elementary and Palm School, part of Lorain City Schools in Lorain, Ohio.
+            </p>
+          </div>
+        </div>
 
-			<div class="space"></div>
+      </div>
+    </section><!-- End About Section -->
 
-			<div class="bullet" id="bullet-point1">
-				<img alt="Music Note" src="assets/images/note.png"> 
-				<a> Creativity</a>
-			</div>
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
 
-			<div class="bullet" id="bullet-point2">
-				<img alt="Music Note" src="assets/images/note.png">
-				<a> Collaboration</a>
-			</div>
+        <div class="section-title">
+          <h2>Philosophy</h2>
+          <p>Creativity, collaboration, and community are elements that students will use for the rest of our lives. Music teaches these elements in an essential way.</p>
+        </div>
 
-			<div class="bullet" id="bullet-point3">
-				<img alt="Music Note" src="assets/images/note.png">
-				<a> Community</a>
-			</div>
-<!-- 
-			<div class="bullet" id="bullet-point3">
-				<img alt="Music Note" src="assets/images/note.png">
-				<a class="test" href="#" data-toggle="tooltip" data-placement="bottom" title="This is what I want to write about community!"> Community</a>
-			</div> -->
+        <div class="row no-gutters">
 
-		</div>
-	</div>
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-music-note-beamed"></i>
+              <span><strong>Creativity</strong></span>
+            </div>
+          </div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="js.js"></script>
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-house-door-fill"></i>
+              <span><strong>Community</strong></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="count-box">
+              <i class="bi bi-people-fill"></i>
+              <span><strong>Collaboration</strong></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="container">
+        <br><br>
+        <p>Each of these skills are presented in a unique environment in music class, allowing students to translate them to their life beyond the school walls. Music teaches us to think creatively and problem solve, skills that are invaluable in today's world. Students learn how to work together and fashion innovative ideas. which are valuable skills in the workplace. My teaching emphasizes these skills. For example, students create short fables and musical themes to accompany them during my Peter and the wolf unit. Units like these emphasize interdisciplinary learning, project based learning, collaboration and creativity.</p>
+
+        <p>My curriculum emphasizes the tenets of Music Learning Theory, or that music is learned as any other language. We learn to imitate and speak before we learn to read and write. Developing students listening abilities before they learn to read music gives them the skills they need to read, perform, and compose music. Many music methodologies and philosophies emphasize this outlook, including the SongWorks methodology I describe below.</p>
+
+        <p><em>What does this look like?</em></p>
+
+        <p>In my music class, students experience music in a multitude of ways including singing, playing instruments, moving and compositing. For example, when I teach a song we:</p>
+
+        <p>
+          <ul>
+            <li>'Story plop,' or I sing the song and ask students questions about it</li>
+            <li>I sing the song and the students tap steady beat</li>
+            <li>We sing the song together</li>
+            <li>Choose an element for study such as rhythm: Follow the steady beat and rhythm with a pointer while the rest of the class sings the song and build the rhythmic notation together.</li>
+          </ul>
+        </p>
+
+        <p>Music provides a fusion of creative critical thinking, collaboration and listening in a way that other subjects do not. I consider it my mission as a teacher to help students discover why music is important and how it can help them.</p>
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>An educator with a unique repertoire (bars indicate years of experience)</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">Elementary General Music<i class="val">3+ Years</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Elementary Choir<i class="val">2 Years</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">High School Guitar<i class="val">1 year</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Buckt Drumming<i class="val">3 Years</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Middle School General Music<i class="val">2 YEARS</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Middle School Choir<i class="val">1 year</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Click <a href="">HERE</a> for a printer-friendly version of my resume.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Angela Kadow</h4>
+              <p><em>Innovative and collaborative music teacher with 3+ years of experience teaching children musical principles and various life-enriching skills, such as teamwork and creative thinking.</em></p>
+              <ul>
+                <li>Cleveland, OH</li>
+                <li>angelabk2588@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Music</h4>
+              <h5>2010 - 2015</h5>
+              <p><em>Cleveland State University, Cleveland, OH</em></p>
+              <p>Music Education, Cum Laude</p>
+            </div>
+
+            <h3 class="resume-title">Certification</h3>
+            <div class="resume-item">
+              <h4>Teaching Certificate - Credential # 21228920</h4>
+              <h5>2016 - 2021</h5>
+              <p>4 Year Ohio Resident Educator License- Multi-Age (P-12) Music</p>
+              <p><em>(Extended for one year due to COVID-19)</em></p>
+            </div>
+            
+            <h3 class="resume-title">Professional Affiliations</h3>
+            <div class="resume-item">
+              <h4>The National Association for Music Education (NAFME)</h4>
+              <p><em>Member</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Ohio Music Education Association</h4>
+              <p><em>Member</em></p>
+            </div>        
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Music Teacher</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Lorain City Schools, Lorain, OH </em></p>
+              <ul>
+                <li>Created a semester long curriculum emphasizing collaboration and creativity</li>
+                <li>Currently utilizing a variety of methodologies including SongWorks, Orff and Quaver</li>
+                <li>Coordinated a PK-5th Holiday Concert at Palm Elementary</li>
+                <li>Coordinated a Spring Concert at Admiral King Elementary centered around friendship</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Music Teacher</h4>
+              <h5>2018 - 2019</h5>
+              <p><em>Constellation Parma Community Middle and High School, Parma, OH</em></p>
+              <ul>
+                <li>Instructed high school Guitar 1 and Guitar 2 classes, with a holistic approach stressing listening to prominent guitar players, a joy of music and the ability to teach yourself</li>
+                <li>Taught 7th and 8th grade choir, emphasizing student feedback and self assessment</li>
+                <li>Taught 7th and 8th grade general music, emphasizing hands on instrument centered classes</li>
+                <li>Created and implemented a general music curriculum</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Music Teacher</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>St. Peter School, Lorain, OH</em></p>
+              <ul>
+                <li>Orchestrated a Christmas Concert, including 1st, 2nd and 3rd grade choirs as well as an 8th grade bucket drumming ensemble</li>
+                <li>Taught 5th Grade Band using the sound before symbol method emphasized in <em>Music Learning Theory</em></li>
+                <li>Created and implemented a curriculum for 6th-8th Grade General Music utilizing bucket drumming and Garage Band</li>
+                <li>Created and implemented a curriculum for K-5 General Music emphasizing SongWorks philosophy, creativity and collaboration</li>
+                <li>Prepared and implemented a Spring Concert featuring Kindergarten, 4th Grade and 5th-8th grade bands</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Below is a sample of my Bitmoji Classrooms and lesson plans. Place your cursor over the images and click the blue button that appears to open each lesson.</p>
+        </div>
+
+<!--         <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div> -->
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/rock.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+<!--                 <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vRhXkOPv0M6nl1-nYwARewxcA6gZKyTTBbbedSQ46JcZuhbjfe6mxJ-mcT_Zax26dyaMRFYRhghc5PX/pub?start=true&loop=false&delayms=60000&slide=id.gb8e43efd69_2_0" title="Rock Lesson">Rock Lesson</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/hiphop.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vSk56q2fPPUmI8To3BIAl95JMzEmUXHUGcQoY_Ms4rDGUj4jP4qAA-7JT_QIaYlq7cdTRMvTty488xW/pub?start=true&loop=false&delayms=60000&slide=id.gbfd68dd8cc_2_45" title="Hip Hop">Hip Hop Lesson</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/jazz.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vTV0K3Ec1H7gify8zwA9wFFroPRTH1Ll42xngKgiSyjTwqEAqYAFfk7JFEjIVnJMPL7r2YfasZB9ME5/pub?start=true&loop=false&delayms=60000&slide=id.gbb1c42196a_0_0" title="Jazz Lesson">Jazz Lesson</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/dance.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vTQKtebqh12GjurOFc4D552hFlZVv0gQqaOfY28KCgunWwKS-PJWK_dcMVewq7m_97fzlAGx9eLJxT-/pub?start=true&loop=false&delayms=60000" title="Dance Lesson">Dance lesson</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/beat.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vSiSRiOjmQv63uF5_yM84JwxIYLw88dIwL4Hcu62Me3B6stc8KpcGk7qYpS114V9BXW5nVYLPzZZkN4/pub?start=true&loop=false&delayms=60000&slide=id.gc718a18ceb_1_59" title="Rhythm and Beat Lesson">Rhythm Lesson</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/string.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQPhkY93l6AwzKkIO7tPptfgOH7kroTiZZWKkIj7HMsFGFq4Ve04Nt9aYAdsZmOfU2Mf3wiqv1HtF5k/pub?start=false&loop=false&delayms=60000" title="String Instrument Lesson">String Lesson</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/guitar.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a> -->
+                <a href="https://docs.google.com/presentation/d/e/2PACX-1vQVJiUVzMb5vc-QMaadf5GKw9Ba6xVSLNLXoHw-PdKvndQ28e8cCNWODvbXslMUcIlXlKgH7NO6ofIw/pub?start=true&loop=false&delayms=60000" title="Guitar Chord Lesson">Guitar Lesson</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/band.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/5thGradeBeginningBandLesson.pdf" title="More Details">Beginning Band</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/notes.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <!-- <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> -->
+                <a href="assets/img/portfolio/MusicAdvocacyLesson.pdf" title="Music Advocacy">Music Advocacy</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <!-- <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-card-checklist"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-bar-chart"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-binoculars"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section> --><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Letters of Recommendation</h2>
+          <p>To view the full letters, click on the icons just below the excerpts. Note: my maiden name was Bottiglier, and I was not yet married at the time that some of these letters were written.</p>
+        </div>
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Angela introduced drumming to our junior high students and planned and executed a Christmas Musical as well as a Spring Band Concert and Spring Musical. Angela has very strong classroom management skills and utilizes every minute of instruction time.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <a target="_blank" href="assets/letters/StPeterLOR.pdf"><img src="assets/img/testimonials/stpeter.jpg" class="testimonial-img" alt=""></a>
+                <h3>Rebecca Brown</h3>
+                <h4>Principal, <em>Saint Peter School</em></h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Rather than shy away from the challenge of teaching elementary general music, Angela dove head first into her work. Angela researched various pedagogical approaches, and actively engaged me in conversations about my own principles and practices in teaching.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <a target="_blank" href="assets/letters/SamanthaSmithLOR.pdf"><img src="assets/img/testimonials/westlake.jpg" class="testimonial-img" alt=""><a>
+                <h3>Samantha J Smith</h3>
+                <h4>Hilliard Elementary General Music Specialist, <br><em>Westlake City Schools</em></h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  During her student teaching, I was impressed with Angela's ability to understand her students' learning process, ask good questions, incorporate suggestions, and connect with students. I am confident that she has the personal qualities to be a fine teacher.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <a target="_blank" href="assets/letters/CSU-LOR.pdf"><img src="assets/img/testimonials/csu.png" class="testimonial-img" alt=""></a>
+                <h3>Barry Hartz, Ph.D.</h3>
+                <h4>Cleveland State University</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  In her classes, Ms. Bottiglier made every effort to connect music with other arts subjects and student emotions, ostensibly realizing a connection with music as a temporal and affective art form. Moreover, Ms. Bottiglier's incorporation of modeling in the instrumental music classroom is to be commended.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <a target="_blank" href="assets/letters/SchattLOR.pdf"><img src="assets/img/testimonials/independence.jpg" class="testimonial-img" alt=""></a>
+                <h3>Matthew Schatt, Ph.D.</h3>
+                <h4>Music Educator, <em>Independence Local School District</em></h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+<!--     <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section> --><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
