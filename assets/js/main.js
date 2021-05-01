@@ -6,12 +6,11 @@
 */
 (function() {
   "use strict";
-  
-  //number of years in About me section
+
   var date1, date2;  
          //define two date object variables with dates inside it  
-         date1 = new Date("01/01/2017");  
-         date2 = new Date();  
+         date1 = new Date("08/01/2017");  
+         date2 = new Date("06/02/2021");  
   
          //calculate time difference  
          var time_difference = date2.getTime() - date1.getTime();  
@@ -23,6 +22,7 @@
          console.log(Math.round(years_difference));
 
          $('#years').append(Math.round(years_difference));
+
 
   /**
    * Easy selector helper function
