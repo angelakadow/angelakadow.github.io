@@ -10,7 +10,7 @@
   var date1, date2;  
          //define two date object variables with dates inside it  
          date1 = new Date("08/01/2017");  
-         date2 = new Date("06/02/2021");  
+         date2 = new Date();  
   
          //calculate time difference  
          var time_difference = date2.getTime() - date1.getTime();  
